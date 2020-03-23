@@ -3,12 +3,12 @@ This repo contains a small script to create an audio of a self defined workout r
 
 # How to use:
 
-It is very simple to use:
+It is very simple to use. Everything is configured in the script */workout_routine/routine.py*:
 
 1. First set a name (and a path) of the created mp3 file.
 
 ```python
-save_path = '/Users/Ignacio/Documents/Proyectos/Workout/routine_abs.mp3'
+save_path = '/Users/Ignacio/Documents/Proyectos/workout_routine/workout_routine/routine_abs.mp3'
 ```
 
 2. Configure the language:
@@ -35,4 +35,4 @@ list_exercises = [
 ]
 ```
 
-4. Execute the script. After some seconds a mp3 audio with the specified rotine is created in the specified path ```save_path```. 
+4. Execute the script */workout_routine/routine.py*. After some seconds a mp3 audio with the specified rotine is created in the specified path ```save_path```. 

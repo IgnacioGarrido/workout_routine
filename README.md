@@ -19,7 +19,7 @@ language = 'en'
 
 3. Configure the routine. The routine is based in a list of tuples. Each tuple consists of *('Exercise to be said.', (int) Number of seconds of silence until next exercise)*. Eg:
 
-´´´python
+```python
 list_exercises = [
 	('The routine will start in 5 seconds', 5),
 	('Abs', 15),
@@ -27,10 +27,10 @@ list_exercises = [
 	('Plank', 15),
 	('Abs', 15),
 	('Legs', 15),
-  ('Rest for 15 seconds', 15)
+  	('Rest for 15 seconds', 15)
 	('Plank', 60),
 	('Lift weight', 60),
 	('Plank', 60),
 ]
-´´´
+```
 

@@ -31,6 +31,8 @@ list_exercises = [
 	('Plank', 60),
 	('Lift weight', 60),
 	('Plank', 60),
+	('Congratulations! End of the routine', 0)
 ]
 ```
 
+4. Execute the script. After some seconds a mp3 audio with the specified rotine is created in the specified path ```save_path```. 

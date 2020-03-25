@@ -36,3 +36,14 @@ list_exercises = [
 ```
 
 4. Execute the script */workout_routine/routine.py*. After some seconds a mp3 audio with the specified rotine is created in the specified path ```save_path```. 
+
+___________________________________________________________________
+
+## #TODO:
+
+1. The script works, but it takes the silence audio from an external mp3 file. This must be fixed.
+
+2. It would be great to overlap the routine with some music (music instead of silence + fade in the instructions).
+
+3. Small graphical interface (maybe flask) to ease the usage. Any help with this is welcome :).
+
